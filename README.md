@@ -67,6 +67,8 @@ More projects coming soon, I'm adding new ones as I build them.
 <img src="https://img.shields.io/badge/>_VIEW_MY_CERTIFICATES-0d1117?style=for-the-badge&logo=awesomelists&logoColor=ff6b35&labelColor=161b22" />
 </a>
 
+<sub>16 certificates · Microsoft · IBM SkillsBuild · Cisco Networking Academy · HP LIFE · ITI · and more</sub>
+
 </div>
 
 ---
