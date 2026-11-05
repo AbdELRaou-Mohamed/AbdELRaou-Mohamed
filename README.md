@@ -16,7 +16,7 @@
 
 ## // about
 
-Computer Science student building a strong foundation in programming, problem solving, and databases. I learn by building real projects, and I'm working my way toward becoming a Software Engineer.
+Second-year Computer Science student passionate about Artificial Intelligence and Full-Stack development. I enjoy solving problems and turning ideas into real projects, while building a strong foundation in programming, data structures, and databases on my way to becoming a Software Engineer.
 
 ---
 
