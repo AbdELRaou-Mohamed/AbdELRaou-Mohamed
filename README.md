@@ -22,11 +22,29 @@ Computer Science student building a strong foundation in programming, problem so
 
 ## // skills
 
+**Languages**
+
 ![C++](https://img.shields.io/badge/C++-0d1117?style=for-the-badge&logo=cplusplus&logoColor=00599C)
+![Java](https://img.shields.io/badge/Java-0d1117?style=for-the-badge&logo=openjdk&logoColor=ED8B00)
 ![Python](https://img.shields.io/badge/Python-0d1117?style=for-the-badge&logo=python&logoColor=3776AB)
 ![SQL](https://img.shields.io/badge/SQL-0d1117?style=for-the-badge&logo=mysql&logoColor=4479A1)
+
+**Web**
+
+![HTML](https://img.shields.io/badge/HTML-0d1117?style=for-the-badge&logo=html5&logoColor=E34F26)
+![CSS](https://img.shields.io/badge/CSS-0d1117?style=for-the-badge&logo=css3&logoColor=1572B6)
+
+**Tools**
+
 ![Git](https://img.shields.io/badge/Git-0d1117?style=for-the-badge&logo=git&logoColor=F05032)
 ![GitHub](https://img.shields.io/badge/GitHub-0d1117?style=for-the-badge&logo=github&logoColor=white)
+
+**Core Concepts**
+
+![OOP](https://img.shields.io/badge/OOP-0d1117?style=for-the-badge&logoColor=white&labelColor=0d1117&color=ff6b35)
+![Problem Solving](https://img.shields.io/badge/Problem_Solving-0d1117?style=for-the-badge&color=00C853)
+![Data Structures](https://img.shields.io/badge/Data_Structures-0d1117?style=for-the-badge&color=58a6ff)
+![Algorithms](https://img.shields.io/badge/Algorithms-0d1117?style=for-the-badge&color=ff6b35)
 
 ---
 
@@ -43,28 +61,13 @@ More projects coming soon, I'm adding new ones as I build them.
 
 ## // certificates
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="certificate-python.png" width="380" alt="Python certificate" /><br/>
-      <sub><b>Python</b></sub>
-    </td>
-    <td align="center">
-      <img src="certificate-database.png" width="380" alt="Database certificate" /><br/>
-      <sub><b>Databases</b></sub>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="certificate-build-with-ai.png" width="380" alt="Build with AI certificate" /><br/>
-      <sub><b>Build with AI</b></sub>
-    </td>
-    <td align="center">
-      <img src="certificate-excellence.jpg" width="380" alt="Excellence certificate" /><br/>
-      <sub><b>Excellence</b></sub>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+<a href="https://abdelraou-mohamed.github.io/AbdELRaou-Mohamed/certificates.html">
+<img src="https://img.shields.io/badge/>_VIEW_MY_CERTIFICATES-0d1117?style=for-the-badge&logo=awesomelists&logoColor=ff6b35&labelColor=161b22" />
+</a>
+
+</div>
 
 ---
 
