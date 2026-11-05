@@ -5,19 +5,36 @@
     .l2 { opacity: 0; animation: fadein 0.5s ease forwards 0.9s; }
     .l3 { opacity: 0; animation: fadein 0.5s ease forwards 1.5s; }
     .l4 { opacity: 0; animation: fadein 0.5s ease forwards 2.1s; }
-    .l5 { opacity: 0; animation: fadein 0.5s ease forwards 2.7s; }
-    .cursor { animation: blink 1s steps(1) infinite; }
+    .c1 { opacity: 0; animation: pop 0.5s ease forwards 2.6s; }
+    .c2 { opacity: 0; animation: pop 0.5s ease forwards 3.0s; }
+    .c3 { opacity: 0; animation: pop 0.5s ease forwards 3.4s; }
+    .c4 { opacity: 0; animation: pop 0.5s ease forwards 3.8s; }
+    .a1 { opacity: 0; animation: fadein 0.4s ease forwards 2.8s; }
+    .a2 { opacity: 0; animation: fadein 0.4s ease forwards 3.2s; }
+    .a3 { opacity: 0; animation: fadein 0.4s ease forwards 3.6s; }
+    .glow { opacity: 0; animation: fadein 0.5s ease forwards 4.1s, pulse 2.4s ease-in-out infinite 4.6s; }
+    .cursor { opacity: 0; animation: fadein 0.1s ease forwards 4.3s, blink 1s steps(1) infinite 4.4s; }
     @keyframes fadein { to { opacity: 1; } }
+    @keyframes pop { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
     @keyframes blink { 50% { opacity: 0; } }
+    @keyframes pulse { 0%, 100% { opacity: 0.35; } 50% { opacity: 0.8; } }
   </style>
   <defs>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#ff6b35" stop-opacity="0.16"/>
       <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
     </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff6b35"/>
+      <stop offset="1" stop-color="#ffb347"/>
+    </linearGradient>
+    <filter id="blur" x="-50%" y="-100%" width="200%" height="300%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
   </defs>
+
   <rect width="900" height="340" rx="14" fill="#0d1117" stroke="#30363d"/>
-  <rect width="900" height="340" rx="14" fill="url(#glow)"/>
+  <rect width="900" height="340" rx="14" fill="url(#bg)"/>
   <rect width="900" height="40" rx="14" fill="#161b22"/>
   <rect y="26" width="900" height="14" fill="#161b22"/>
   <circle cx="28" cy="20" r="6" fill="#ff5f56"/>
@@ -26,11 +43,37 @@
   <text x="450" y="25" text-anchor="middle" class="mono" font-size="12" fill="#6e7681">abdelraouf@portfolio: ~/hero</text>
 
   <text x="40" y="90" class="mono l1" font-size="18" fill="#58a6ff">$ whoami</text>
-  <text x="40" y="146" class="mono l2" font-size="46" font-weight="bold" fill="#ff6b35">AbdELRaouf Mohamed</text>
-  <text x="40" y="186" class="mono l3" font-size="17" fill="#c9d1d9">&gt; Computer Science Student | C++ | Python | SQL</text>
-  <text x="40" y="213" class="mono l3" font-size="14" fill="#6e7681">&gt; First-Year · Future Software Engineer</text>
-  <text x="40" y="270" class="mono l4" font-size="18" fill="#58a6ff">$ ./grow</text>
-  <text x="40" y="306" class="mono l5" font-size="19" font-weight="bold" fill="#ff6b35">C++ → Python → SQL → Software Engineer<tspan class="cursor" fill="#c9d1d9"> ▌</tspan></text>
+  <text x="40" y="146" class="mono l2" font-size="46" font-weight="bold" fill="url(#name)">AbdELRaouf Mohamed</text>
+  <text x="40" y="186" class="mono l3" font-size="17" fill="#c9d1d9">&gt; Computer Science Student | AI | Full-Stack</text>
+  <text x="40" y="213" class="mono l3" font-size="14" fill="#6e7681">&gt; Second-Year · Problem Solver · Future Software Engineer</text>
+
+  <text x="40" y="268" class="mono l4" font-size="18" fill="#58a6ff">$ ./grow</text>
+
+  <!-- journey chips -->
+  <g class="c1">
+    <rect x="40" y="282" width="46" height="32" rx="16" fill="#ff6b35" fill-opacity="0.08" stroke="#ff6b35" stroke-opacity="0.7"/>
+    <text x="63" y="303" text-anchor="middle" class="mono" font-size="15" font-weight="bold" fill="#ff6b35">AI</text>
+  </g>
+  <text x="101" y="303" text-anchor="middle" class="mono a1" font-size="16" fill="#6e7681">→</text>
+
+  <g class="c2">
+    <rect x="116" y="282" width="118" height="32" rx="16" fill="#ff6b35" fill-opacity="0.08" stroke="#ff6b35" stroke-opacity="0.7"/>
+    <text x="175" y="303" text-anchor="middle" class="mono" font-size="15" font-weight="bold" fill="#ff6b35">Full-Stack</text>
+  </g>
+  <text x="249" y="303" text-anchor="middle" class="mono a2" font-size="16" fill="#6e7681">→</text>
+
+  <g class="c3">
+    <rect x="264" y="282" width="163" height="32" rx="16" fill="#ff6b35" fill-opacity="0.08" stroke="#ff6b35" stroke-opacity="0.7"/>
+    <text x="345.5" y="303" text-anchor="middle" class="mono" font-size="15" font-weight="bold" fill="#ff6b35">Problem Solving</text>
+  </g>
+  <text x="442" y="303" text-anchor="middle" class="mono a3" font-size="16" fill="#6e7681">→</text>
+
+  <rect class="glow" x="457" y="282" width="100" height="32" rx="16" fill="#ff6b35" filter="url(#blur)"/>
+  <g class="c4">
+    <rect x="457" y="282" width="100" height="32" rx="16" fill="#ff6b35"/>
+    <text x="507" y="303" text-anchor="middle" class="mono" font-size="15" font-weight="bold" fill="#0d1117">Engineer</text>
+  </g>
+  <text x="572" y="304" class="mono cursor" font-size="20" fill="#c9d1d9">▌</text>
 
   <text x="745" y="265" class="mono" font-size="96" fill="#ffffff" fill-opacity="0.05">&lt;/&gt;</text>
 </svg>
